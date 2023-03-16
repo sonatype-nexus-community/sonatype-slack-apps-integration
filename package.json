@@ -1,5 +1,5 @@
 {
-  "name": "slack-app-integration",
+  "name": "sonatype-slack-app-integration",
   "version": "1.0.0",
   "description": "Webhook slack app integration for IQ",
   "main": "index.js",

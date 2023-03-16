@@ -1,6 +1,6 @@
 # Sonatype Slack Apps Integration
 
-Steps for configuring a service to forward Slack notifiactions from Sonatype Nexus Lifecycle
+Steps for configuring a node.js service to forward Nexus Lifecycle Webhook notifications to a Slack App.
 
 *Copyright Sonatype Inc. 2022*
 
@@ -34,6 +34,7 @@ On Slack we need to create an app to listen for our Webhooks from IQ:
     - Click the "Create" button
 
 
+
 ## Run the project
 If everything has been set up correctly, we will be able to run the service and watch notifications come through.
 
@@ -53,6 +54,7 @@ In the terminal for this directory, run the service by typing:
 
 All Done!
 
+
 You can go to *http://localhost:3000/test* to trigger a test Slack message
 
 Then you should scan an app with Lifecycle and watch the notifications go!
@@ -60,4 +62,15 @@ Then you should scan an app with Lifecycle and watch the notifications go!
 
 
 
+## The Fine Print
 
+Remember:
+
+It is worth noting that this is **NOT SUPPORTED** by Sonatype, and is a contribution of ours to the open source
+community (read: you!)
+
+* Use this contribution at the risk tolerance that you have
+* Do NOT file Sonatype support tickets related to `ossindex-lib`
+* DO file issues here on GitHub, so that the community can pitch in
+
+Phew, that was easier than I thought. Last but not least of all - have fun!
