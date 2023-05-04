@@ -32,8 +32,7 @@ app.use(express.json());
 // ENVIRONMENT VARIABLES
 SLACK_URL = process.env.SLACK_URL // "https://hooks.slack.com/services/..."
 PORT = process.env.PORT // 3000
-IQ_URL = process.env.IQ_URL
-// "http://localhost:8070/"
+IQ_URL = process.env.IQ_URL // "http://localhost:8070/"
 /*****************/
 
 
